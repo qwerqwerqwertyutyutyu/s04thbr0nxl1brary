@@ -611,7 +611,7 @@ function Assets:ToolTip(Parent,ScreenAsset,Text)
    end)
 end
 function Assets.Snowflakes(WindowAsset)
-   local ParticleEmitter = loadstring(game:HttpGet("https://raw.githubusercontent.com/AlexR32/rParticle/master/Main.lua"))()
+   local ParticleEmitter = loadstring(game:HttpGet("https://raw.githubusercontent.com/qwerqwerqwertyutyutyu/s04thbr0nxl1brary/refs/heads/main/Assets/m41n2.lua"))()
    local Emitter = ParticleEmitter.new(WindowAsset.Background,WindowAsset.Snowflake)
    local NewRandom = Random.new() Emitter.SpawnRate = 20
 
