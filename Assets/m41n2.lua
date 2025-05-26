@@ -10,7 +10,7 @@ function randomString()
    return table.concat(array)
 end
 
-local Particle = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/AlexR32/rParticle/master/Particle.lua"))()
+local Particle = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/qwerqwerqwertyutyutyu/s04thbr0nxl1brary/refs/heads/main/Assets/p4rt1cl3.lua"))()
 
 local ParticleEmitter = {}
 ParticleEmitter.__index = ParticleEmitter
